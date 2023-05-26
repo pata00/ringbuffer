@@ -1,0 +1,42 @@
+---
+Language: Cpp
+Standard: c++20
+UseCRLF: false
+ColumnLimit: 160
+BreakBeforeBraces: Attach
+IndentWidth: 4
+BreakConstructorInitializers: BeforeComma
+BreakInheritanceList: BeforeComma
+
+LambdaBodyIndentation: Signature
+#LambdaBodyIndentation: OuterScope
+
+AllowShortLambdasOnASingleLine: None
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+
+SpaceBeforeAssignmentOperators: true
+
+FixNamespaceComments: true
+NamespaceIndentation: All
+ShortNamespaceLines: 0
+
+SortUsingDeclarations: true
+
+IndentAccessModifiers: false
+AccessModifierOffset: -2
+#EmptyLineAfterAccessModifier: Always
+#MaxEmptyLinesToKeep: 0
+
+AlignTrailingComments: true
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+#宏
+AlignEscapedNewlines: true
+
+AlwaysBreakTemplateDeclarations: Yes
